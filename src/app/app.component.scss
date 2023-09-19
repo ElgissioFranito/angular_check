@@ -1,0 +1,49 @@
+.main{
+    h1{
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(0, 60, 255);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover{
+            background: rgb(0, 60, 255);
+
+            span{
+                color: white;
+            }
+        }
+
+        span{
+
+            color: rgb(0, 60, 255);
+            text-transform: uppercase;
+            margin: 10px;
+        }
+    }
+
+    .boxs{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+        background: rgb(255, 255, 150);
+        border-radius: 10px;
+
+        .box{
+            margin: 0 20px;
+        }
+    }
+
+    .selected{
+        margin: 20px;
+        background: rgb(87, 154, 255);
+        border-radius: 10px;
+        height: 100px;
+        padding: 20px;
+        font-size: xx-large;
+    }
+}
