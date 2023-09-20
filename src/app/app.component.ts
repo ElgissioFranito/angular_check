@@ -16,6 +16,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.voankazos = this.api.getFruits();
+    this.selected = [];
+    this.selectedFruitsId = [];
   }
 
   public SelectFruit(){
